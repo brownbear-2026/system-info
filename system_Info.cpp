@@ -4,8 +4,8 @@
 #include <string>
 #include <sys/utsname.h>
 
-#include <unistd.>
-#Include <sys/vfs.h>
+#include <unistd.h>
+#include <sys/vfs.h>
 
 // Read /proc file helper
 std::string readProcFile(const std::string& path) {
